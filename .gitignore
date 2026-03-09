@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# setuptools
+build/
+dist/
+*.egg-info
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+#PyCharm
+.idea/
+
+
+.venv
+venv/
+
+# Data files
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
