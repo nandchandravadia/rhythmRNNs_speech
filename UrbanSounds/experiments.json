@@ -1,0 +1,24 @@
+{
+
+  "1": {
+    "network": "coRNN",
+    "network_type": "N",
+    "experiment_id": 1,
+    "random_seed": 46158,
+    "n_hid": 256,
+    "dt": 0.042,
+    "epochs": 5,
+    "batch": 2,
+    "lr": 0.005,
+    "save_model": true,
+    "data_dir": "/home/nand/T9/UrbanSounds8k/data/",
+    "signal_length": 32294,
+    "gamma_mode": "uniform",
+    "gamma_low": 0.1,
+    "gamma_high": 20,
+    "epsilon_mode": "uniform",
+    "epsilon_low": 0.1,
+    "epsilon_high": 80
+  }
+
+}
