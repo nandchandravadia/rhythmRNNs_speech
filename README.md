@@ -69,10 +69,10 @@ The raw audio data can be found at the the following [Zenodo repository](https:/
 If you found this work useful, please consider citing:
 
 ```bibtex
-@article{chandravadia2025neural,
+@article{chandravadia2026neural,
   title={Neural rhythms as priors of speech computations},
   author={Chandravadia, Nand and Imam, Nabil},
-  journal={bioRxiv},
-  pages={2025--05},
-  year={2025}
+  journal={Patterns},
+  year={2026},
+  publisher={Elsevier}
 }
