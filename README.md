@@ -15,6 +15,41 @@ Abstract of the paper:
 
 ## Code
 
+Each experiment lives in its own folder and is run by executing `task.py` from
+within that folder, passing the appropriate `--experiment_id`.
+
+**English Spoken Digits**
+
+```bash
+cd English
+python3 task.py --experiment_id 1
+```
+
+**Arabic Spoken Digits**
+
+```bash
+cd Arabic
+python3 task.py --experiment_id 1
+```
+
+**Bengali Spoken Digits**
+
+```bash
+cd Bengali
+python3 task.py --experiment_id 1
+```
+
+**UrbanSounds8k**
+
+```bash
+cd UrbanSounds
+python3 task.py --experiment_id 1
+```
+
+Before running an experiment, download the raw audio data from the
+[Zenodo repository](https://zenodo.org/records/20315071) and place each
+language's data in its corresponding folder (e.g., `English/data/`).
+
 
 
 ## Datasets
@@ -26,6 +61,8 @@ This repository contains the code to reproduce the results of the following expe
 - **Arabic Spoken Digits**
 - **Bengali Spoken Digits**
 - **UrbanSounds8k**
+
+The raw audio data can be found at the the following [Zenodo repository](https://zenodo.org/records/20315071).
 
 
 ## Citation
