@@ -6,13 +6,12 @@
 ## Introduction 
 
 
-This repository contains the implementation to reproduce the experiments of the paper [Neural rhythms as priors of speech computations](https://www.biorxiv.org/content/10.1101/2025.05.06.652542v2.abstract)
+This repository contains the implementation to reproduce the experiments of the paper [Neural rhythms as priors of speech computations](https://www.sciencedirect.com/science/article/pii/S2666389926000723)
 
 
 Abstract of the paper: 
 
->The transformation of speech into discrete linguistic representations forms the basis of speech recognition. Natural speech encodes cues at distinct timescales: phonetic features have modulation frequencies of $30$-$50$ Hz, syllables and words around $4$-$7$ Hz, and phrases $1$-$2$ Hz. Strikingly, these frequencies mirror frequencies of endogenous network rhythms of the brain and synaptic time constants of the underlying neural circuits. Here, we suggest that endogenous brain rhythms serve as priors for speech recognition, encoding knowledge of speech structure in the dynamics of network computations. In a network of coupled oscillators, we find that speech is readily identified when characteristic frequencies of the oscillators match frequencies of circuit rhythms in the brain.  When signal and circuit rhythms are mismatched, speech identification is impaired. Compared to a baseline recurrent neural network without intrinsic oscillations, the coupled oscillatory network has significantly higher performance in speech recognition across languages, but not in the recognition of signals that lack speech-like structure, such as urban sounds. Our results suggest a central computational role of brain rhythms in speech processing.
-
+>Endogenous rhythms of auditory neural circuits have a striking resemblance to the temporal modulations of incoming speech signals. Here, we show that these rhythms may serve as priors for speech recognition, encoding knowledge of speech structure in the dynamics of network computations. In a network of coupled oscillators, we find that speech is readily identified when characteristic frequencies of the oscillators match low-frequency circuit rhythms in the auditory cortex. When signal and circuit rhythms are mismatched, speech identification is impaired. Compared to a baseline recurrent neural network without intrinsic oscillations, the coupled oscillatory network has significantly higher performance in speech recognition across languages but not in the recognition of signals that lack speech-like structure, such as urban sounds. Our results suggest a central computational role of brain rhythms in speech processing.
 
 ## Code
 
