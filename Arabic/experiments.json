@@ -11,7 +11,7 @@
     "batch": 64,
     "lr": 0.0042,
     "save_model": true,
-    "data_dir": "/home/nand/Dropbox/research/Encoding Rhythmic and Syntactic Priors in Machine Audition/Arabic Speech Corpus/data/",
+    "data_dir": "./data/",
     "original_sampling_rate": 44100,
     "new_sampling_rate": 8000,
     "initial_input_length": 70119,
