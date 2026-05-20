@@ -64,6 +64,33 @@ This repository contains the code to reproduce the results of the following expe
 
 The raw audio data can be found at the the following [Zenodo repository](https://zenodo.org/records/20315071).
 
+## Trained Models
+
+Trained model checkpoints (`.pth`) for some experiments, together with their
+per-model specification files (`.csv`), are available in a separate
+[Zenodo repository](https://zenodo.org/records/20316630).
+
+Each checkpoint is a PyTorch `state_dict` for a `coRNN` model. Because the
+oscillator parameters `gamma` and `epsilon` are constructor arguments rather
+than learned weights, the architecture must first be rebuilt using the values
+in the matching CSV before the weights can be loaded:
+
+```python
+import torch
+from coRNN import coRNN  # architecture definition
+
+# Build the model with the values from the matching CSV (e.g. coRNN_N_240.csv)
+model = coRNN(network_type, n_inp, n_hid, n_out, dt, gamma, epsilon)
+
+state = torch.load("English/coRNN_N_epoch49_experiment240_english.pth",
+                   map_location="cpu")
+model.load_state_dict(state)
+model.eval()
+```
+
+See the README in the trained-models repository for the full filename
+convention and CSV format.
+
 
 ## Citation
 If you found this work useful, please consider citing:
