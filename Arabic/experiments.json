@@ -1,0 +1,28 @@
+{
+
+  "1": {
+    "network": "coRNN",
+    "network_type": "N",
+    "experiment_id": 1,
+    "random_seed": 17383,
+    "n_hid": 256,
+    "dt": 0.005,
+    "epochs": 250,
+    "batch": 64,
+    "lr": 0.0042,
+    "save_model": true,
+    "data_dir": "/home/nand/Dropbox/research/Encoding Rhythmic and Syntactic Priors in Machine Audition/Arabic Speech Corpus/data/",
+    "original_sampling_rate": 44100,
+    "new_sampling_rate": 8000,
+    "initial_input_length": 70119,
+    "final_signal_length": 12720,
+    "input_length": 0,
+    "gamma_mode": "uniform",
+    "gamma_low": 0.1,
+    "gamma_high": 20,
+    "epsilon_mode": "uniform",
+    "epsilon_low": 0.1,
+    "epsilon_high": 80
+  }
+
+}
