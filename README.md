@@ -54,7 +54,7 @@ language's data in its corresponding folder (e.g., `English/data/`).
 
 ## Datasets
 
-This repository contains the code to reproduce the results of the following experiments:
+The models use the following datasets:
 
 
 - **English Spoken Digits**
@@ -66,7 +66,7 @@ The raw audio data can be found at the the following [Zenodo repository](https:/
 
 ## Trained Models
 
-Trained model checkpoints (`.pth`) for some experiments, together with their
+Trained model checkpoints (`.pth`) for the main experiments, together with their
 per-model specification files (`.csv`), are available in a separate
 [Zenodo repository](https://zenodo.org/records/20316630).
 
@@ -93,7 +93,6 @@ convention and CSV format.
 
 
 ## Citation
-If you found this work useful, please consider citing:
 
 ```bibtex
 @article{chandravadia2026neural,
